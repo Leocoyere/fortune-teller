@@ -5,8 +5,9 @@ export default function AnimatedInput() {
 	const [questionNumber, setQuestionNumber] = useState(0);
 	const [animate, setAnimate] = useState(true);
 
-	const handleSetAnimate = (e) => {
-		e.target.value ? setAnimate(false) : setAnimate(true);
+	const handleSetAnimate = (e: React.FocusEvent<HTMLInputElement>) => {
+		const value = e.target.value;
+		setAnimate(!value);
 	}
 
 	const questions = useMemo(

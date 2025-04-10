@@ -215,3 +215,49 @@ button:focus-visible {
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes leaf {
+  0% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(5deg);
+  }
+  60% {
+    transform: rotateZ(-15deg);
+  }
+  100% {
+    transform: rotateZ(-5deg);
+  }
+}
+
+.leaf-top {
+  animation: leaf 8s ease-in-out infinite alternate-reverse;
+  transform-origin: top left;
+}
+
+.leaf-bottom {
+  animation: leaf 8s ease-in-out infinite alternate;
+  transform-origin: bottom right;
+}
+
+@keyframes sparkle {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* 
+.star-sparkle {
+  animation: sparkle 4s ease-in-out infinite alternate;
+}
+
+.star-circle {
+  animation: sparkle 4s ease-in-out infinite alternate;
+  animation-delay: 2s;
+} */

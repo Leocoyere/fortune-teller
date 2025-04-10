@@ -2,7 +2,6 @@ import witchTop from "../assets/images/witch-top.jpg";
 import witchBottom from "../assets/images/witch-bottom.jpg";
 import RandomLetterSwapForward from "@/components/atoms/random-letter-swap-forward-anim"
 import AnimatedInput from "@/components/molecules/AnimatedInput";
-import { useState } from "react";
 import StarCircle from "@/components/atoms/StarCircle";
 import StarSparkle from "@/components/atoms/StarSparkle";
 

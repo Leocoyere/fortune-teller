@@ -28,7 +28,7 @@ function App() {
 							reverse={false}
 							className="uppercase cosmic text-white text-right leading-none text-[12vw]"
 						/>
-						<p className="uppercase text-2xl font-light text-white">ASK A YES/NO QUESTION AND LET THE CARDS<br/> GIVE YOU AN ANSWER...</p>
+						<p className="uppercase text-2xl font-light text-white italic">ASK A <strong className="font-medium">YES/NO QUESTION</strong> AND LET THE CARDS<br/> GIVE YOU AN ANSWER...</p>
 				</section>
 			</div>
 			<AnimatedInput />

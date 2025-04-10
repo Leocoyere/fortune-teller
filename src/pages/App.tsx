@@ -1,6 +1,6 @@
 import witchTop from "../assets/images/witch-top.jpg";
 import witchBottom from "../assets/images/witch-bottom.jpg";
-import RandomLetterSwapForward from "@/components/atoms/random-letter-swap-forward-anim"
+import RandomLetterSwapForward from "@/components/atoms/RandomLetterSwap"
 import AnimatedInput from "@/components/molecules/AnimatedInput";
 import StarCircle from "@/components/atoms/StarCircle";
 import StarSparkle from "@/components/atoms/StarSparkle";

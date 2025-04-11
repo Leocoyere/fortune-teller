@@ -53,26 +53,28 @@
 @font-face {
 	font-family: 'Cosmic Solace';
 	font-weight: 400;
-	src: url(‘assets/fonts/CosmicSolace/CosmicSolace-Regular.otf) format(otf)
+	src: url(./assets/fonts/CosmicSolace/CosmicSolace-Regular.otf) format(otf),
+  url(./assets/fonts/CosmicSolace/CosmicSolace-Regular.woff) format(woff),
+  url(./assets/fonts/CosmicSolace/CosmicSolace-Regular.woff2) format(woff2);
 }
 
 @font-face {
 	font-family: 'Nohemi';
 	font-weight: 400;
-	src: url(‘/fonts/Nohemi/Nohemi-Regular.otf) format(otf)
+	src: url(‘./assets/fonts/Nohemi/Nohemi-Regular.otf) format(otf)
 }
 
 @font-face {
 	font-family: 'Nohemi';
 	font-weight: 300;
-	src: url(‘/fonts/Nohemi/Nohemi-Light.otf) format(otf),
-  url(‘/fonts/Nohemi/Nohemi-Light.otf) format(ttf)
+	src: url(‘./assets/fonts/Nohemi/Nohemi-Light.otf) format(otf),
+  url(‘./assets/fonts/Nohemi/Nohemi-Light.otf) format(ttf)
 }
 
 @font-face {
 	font-family: 'Nohemi';
 	font-weight: 200;
-	src: url(‘/fonts/Nohemi/Nohemi-ExtraLight.otf) format(otf)
+	src: url(‘/assets/fonts/Nohemi/Nohemi-ExtraLight.otf) format(otf)
 }
 
 .nohemi {

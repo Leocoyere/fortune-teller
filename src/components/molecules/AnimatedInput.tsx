@@ -27,7 +27,7 @@ export default function AnimatedInput() {
 	}, [questionNumber, questions, animate]);
 
 	return (
-    	<div className="mb-20 px-5 w-full lg:w-auto relative z-1 flex justify-center items-center gap-4">
+    	<div className="mb-20 mt-10 lg:mt-auto px-5 w-full lg:w-auto relative z-1 flex justify-center items-center gap-4">
 			{ animate ?
 			questions.map((question, index) => (
 				<motion.span

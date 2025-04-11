@@ -99,8 +99,8 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: clamp(2.5rem, 12vw, 14.875rem);
+.title-swap {
+  font-size: clamp(6.125rem, 12vw, 14.875rem);
 }
 
 button {

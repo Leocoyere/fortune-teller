@@ -109,10 +109,14 @@ body {
   line-height: 1;
 }
 
+
 @media (width >= 48rem) {
   .card-title {
     line-height: .8;
     font-size: clamp(9rem, 12vw, 14.875rem);
+  }
+  .card-title_reversed {
+    font-size: clamp(4rem, 5vw, 9rem);
   }
 }
 

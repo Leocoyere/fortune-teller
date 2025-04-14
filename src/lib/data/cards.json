@@ -1,0 +1,245 @@
+{
+    "0": {
+      "name": "The Fool",
+      "upright": {
+        "answer": "yes",
+        "message": "A step into the unknown is blessed."
+      },
+      "reversed": {
+        "answer": "no",
+        "message": "The path is fogged with uncertainty."
+      }
+    },
+    "1": {
+      "name": "The Magician",
+      "upright": {
+        "answer": "yes",
+        "message": "What is focused becomes real."
+      },
+      "reversed": {
+        "answer": "no",
+        "message": "The mirror reflects something unclear."
+      }
+    },
+    "2": {
+      "name": "The High Priestess",
+      "upright": {
+        "answer": "yes",
+        "message": "The silence knows the answer."
+      },
+      "reversed": {
+        "answer": "no",
+        "message": "Hidden truths lie beneath the surface."
+      }
+    },
+    "3": {
+      "name": "The Empress",
+      "upright": {
+        "answer": "yes",
+        "message": "What is sown begins to bloom."
+      },
+      "reversed": {
+        "answer": "no",
+        "message": "Growth requires deeper roots."
+      }
+    },
+    "4": {
+      "name": "The Emperor",
+      "upright": {
+        "answer": "yes",
+        "message": "Order stands strong against the winds."
+      },
+      "reversed": {
+        "answer": "no",
+        "message": "Too much control bends the frame."
+      }
+    },
+    "5": {
+      "name": "The Hierophant",
+      "upright": {
+        "answer": "yes",
+        "message": "The old ways light the path forward."
+      },
+      "reversed": {
+        "answer": "no",
+        "message": "Break the rules, or they will break you."
+      }
+    },
+    "6": {
+      "name": "The Lovers",
+      "upright": {
+        "answer": "yes",
+        "message": "Two forces move in harmony."
+      },
+      "reversed": {
+        "answer": "no",
+        "message": "Disconnection shadows the bond."
+      }
+    },
+    "7": {
+      "name": "The Chariot",
+      "upright": {
+        "answer": "yes",
+        "message": "Momentum carries you forward."
+      },
+      "reversed": {
+        "answer": "no",
+        "message": "Wheels spin without direction."
+      }
+    },
+    "8": {
+      "name": "Strength",
+      "upright": {
+        "answer": "yes",
+        "message": "Soft power bends the iron."
+      },
+      "reversed": {
+        "answer": "no",
+        "message": "The lion stirs within unrested."
+      }
+    },
+    "9": {
+      "name": "The Hermit",
+      "upright": {
+        "answer": "yes",
+        "message": "In stillness, the answer glows."
+      },
+      "reversed": {
+        "answer": "no",
+        "message": "Isolation clouds the lantern’s light."
+      }
+    },
+    "10": {
+      "name": "Wheel of Fortune",
+      "upright": {
+        "answer": "yes",
+        "message": "The cycle turns in your favor."
+      },
+      "reversed": {
+        "answer": "no",
+        "message": "The spin slows; fate waits."
+      }
+    },
+    "11": {
+      "name": "Justice",
+      "upright": {
+        "answer": "yes",
+        "message": "What is fair shall come to pass."
+      },
+      "reversed": {
+        "answer": "no",
+        "message": "Balance falters in the shadows."
+      }
+    },
+    "12": {
+      "name": "The Hanged Man",
+      "upright": {
+        "answer": "no",
+        "message": "Stillness reveals a deeper view."
+      },
+      "reversed": {
+        "answer": "no",
+        "message": "Release what you grip too tightly."
+      }
+    },
+    "13": {
+      "name": "Death",
+      "upright": {
+        "answer": "yes",
+        "message": "An end clears the way for rebirth."
+      },
+      "reversed": {
+        "answer": "no",
+        "message": "Clinging prevents the transformation."
+      }
+    },
+    "14": {
+      "name": "Temperance",
+      "upright": {
+        "answer": "yes",
+        "message": "Waters blend in quiet harmony."
+      },
+      "reversed": {
+        "answer": "no",
+        "message": "The vessel spills—find your center."
+      }
+    },
+    "15": {
+      "name": "The Devil",
+      "upright": {
+        "answer": "no",
+        "message": "Chains shimmer, though they bind."
+      },
+      "reversed": {
+        "answer": "yes",
+        "message": "The lock weakens—the door cracks open."
+      }
+    },
+    "16": {
+      "name": "The Tower",
+      "upright": {
+        "answer": "no",
+        "message": "Foundations tremble before the storm."
+      },
+      "reversed": {
+        "answer": "no",
+        "message": "The fall can still be softened, but not avoided."
+      }
+    },
+    "17": {
+      "name": "The Star",
+      "upright": {
+        "answer": "yes",
+        "message": "A distant light guides your way."
+      },
+      "reversed": {
+        "answer": "no",
+        "message": "The stars dim; hope flickers faintly."
+      }
+    },
+    "18": {
+      "name": "The Moon",
+      "upright": {
+        "answer": "no",
+        "message": "All is not as it seems."
+      },
+      "reversed": {
+        "answer": "yes",
+        "message": "Mist lifts; the path reveals itself."
+      }
+    },
+    "19": {
+      "name": "The Sun",
+      "upright": {
+        "answer": "yes",
+        "message": "Radiance clears the shadows."
+      },
+      "reversed": {
+        "answer": "yes",
+        "message": "Even behind clouds, the sun remains."
+      }
+    },
+    "20": {
+      "name": "Judgement",
+      "upright": {
+        "answer": "yes",
+        "message": "A call is heard and answered."
+      },
+      "reversed": {
+        "answer": "no",
+        "message": "Echoes linger, unheard and unresolved."
+      }
+    },
+    "21": {
+      "name": "The World",
+      "upright": {
+        "answer": "yes",
+        "message": "The circle completes in perfect form."
+      },
+      "reversed": {
+        "answer": "no",
+        "message": "The last step waits to be taken."
+      }
+    }
+  }
+  

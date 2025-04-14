@@ -7,7 +7,7 @@ export function generateUrl(question: string): string {
 
     const payload = {
         question,
-        card: card,
+        card
     }
 
     return encodeBase64Url(payload);

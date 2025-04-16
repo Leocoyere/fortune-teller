@@ -5,14 +5,14 @@ import { useRef } from "react";
 export default function Card() {
 
     const cardRef = useRef<HTMLDivElement>(null);
-    const { handleMouseMove, getTransform, resetTransform } = useMouseParallax(cardRef);
+    const { handleMouseMove, getTransform, resetTransform } = useMouseParallax(cardRef as React.RefObject<HTMLElement>);
     
     const { name, isReversed, palette } = useCard();
 
     const images = import.meta.glob('../../assets/images/cards/*.jpg', { eager: true, query: '?url', import: 'default' });
     const fileName = name.toLowerCase().replace(/\s+/g, "-");
     const key = `../../assets/images/cards/${fileName}.jpg`;
-    const src = images[key];
+    const src = images[key] as string;
 
     return (
         <section className="relative z-2 w-3xs md:w-[35vw] lg:w-100 mx-auto transition-transform duration-200 ease-out"

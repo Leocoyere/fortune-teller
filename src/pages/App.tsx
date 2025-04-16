@@ -18,7 +18,6 @@ function App() {
 						Major Arcana
 					</h2>
 					<img className="md:absolute pr-5 top-0 left-15 md:-translate-y-4/10 self-start md:w-4/7 w-lg" src={witchTop} alt="" />
-					{/* <h1 className="uppercase cosmic text-white text-right leading-none">Fortune Teller</h1> */}
 					<RandomLetterSwapForward
 						label="Fortune"
 						reverse={false}

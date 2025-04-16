@@ -5,6 +5,7 @@ import StarCircle from "@/components/atoms/StarCircle";
 import StarSparkle from "@/components/atoms/StarSparkle";
 import StarEightBranchs from "@/components/atoms/StarEightBranchs";
 
+
 export default function Answer() {
 
     const { name, answer, message, question, palette, isReversed } = useCard();

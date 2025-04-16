@@ -5,10 +5,14 @@ export function generateUrl(question: string): string {
 
     const card = generateRandomCard();
 
+    if (!question) {
+        return "/404-no-question-provided";
+    }
+
     const payload = {
         question,
         card
     }
 
-    return encodeBase64Url(payload);
+    return `/result/${encodeBase64Url(payload)}`;
 }

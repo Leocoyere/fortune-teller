@@ -23,7 +23,7 @@ export default function AnimatedInput() {
 	function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
 		e.preventDefault();
 		const encodedUrl = generateUrl(question);
-		navigate(`/result/${encodedUrl}`);
+		navigate(encodedUrl);
 	}
 
 	return (

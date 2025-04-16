@@ -105,8 +105,17 @@ body {
   font-size: clamp(6.125rem, 12vw, 14.875rem);
 }
 
+.error-title {
+  font-size: clamp(6.125rem, 12vw, 14.875rem);
+  line-height: 1;
+}
+
 .card-title {
   line-height: 1;
+}
+
+.test {
+  height: 60vh;
 }
 
 

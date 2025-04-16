@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router'
 import App from '@/pages/App.tsx'
 import Answer from '@/pages/Answer.tsx'
 import CardProvider from '@/components/providers/CardProvider.tsx'
+import Error404 from '@/pages/Error404'
 
 export default function Router() {
     return (
@@ -15,6 +16,7 @@ export default function Router() {
                 </CardProvider>
                 }
             />
+            <Route path="*" element={<Error404 />} />
         </Routes>
     )
 }

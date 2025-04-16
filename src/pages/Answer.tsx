@@ -21,7 +21,7 @@ export default function Answer() {
                 <section className="relative flex flex-col justify-end items-center gap-4 max-w-lg w-full">
                     <div className="relative flex flex-col justify-end items-end w-full">
                         <p className="text-white font-light text-base md:text-lg lg:text-xl max-w-sm">{question}</p>
-                        <h2 className=" cosmic text-[#E38B92] text-8xl md:text-9xl xl:text-[176px] lg:leading-50" style={{ color: palette.secondary }}>{answer}<StarSparkle className="absolute left-0 -bottom-1/2 md:fixed md:top-1/3 md:left-25" color={palette.primary} /></h2>
+                        <h2 className="cosmic text-[#E38B92] text-8xl md:text-9xl xl:text-[176px] lg:leading-50" style={{ color: palette.secondary }}>{answer}<StarSparkle className="absolute left-0 top-0 md:fixed md:top-1/3 md:left-25" color={palette.primary} /></h2>
                     </div>
                     <span className="relative z-1 text-3xl lg:text-5xl xl:text-6xl font-extralight text-white uppercase md:text-left text-center">{message}</span>
                     <LinkToHome />

@@ -18,8 +18,8 @@ export default function Answer() {
     };
 
     return (
-        <main className="bg-[#3D1105] w-screen min-h-screen flex flex-col-reverse justify-center gap-15 md:gap-20 overflow-hidden" style={{ background: palette.background }}>
-            <section className="md:grid md:grid-cols-[auto_1fr] flex flex-col gap-15 md:gap-20 max-w-[1500px] mx-auto md:pl-20 px-4 lg:px-20 mb-10">
+        <main className="bg-[#3D1105] w-screen min-h-screen flex flex-col-reverse justify-center gap-10 md:gap-20 overflow-hidden" style={{ background: palette.background }}>
+            <section className="md:grid md:grid-cols-[auto_1fr] flex flex-col gap-12 md:gap-20 max-w-[1500px] mx-auto md:pl-20 px-4 lg:px-20 mb-10">
                 <div>
                     <Card />
                 </div>

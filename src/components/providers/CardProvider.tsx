@@ -18,10 +18,10 @@ const cardPalette: Record<string, ColorPalette> = {
     accent: "#6C1509"
   },
   "1": {
-    primary: "#8e44ad",
-    secondary: "#ecf0f1",
-    background: "#1a1a1a",
-    accent: "#f39c12"
+    primary: "#E75BB3",
+    secondary: "#E38B92",
+    background: "#3D1105",
+    accent: "#E31918"
   },
   "2": {
     primary: "#2DA3D0",

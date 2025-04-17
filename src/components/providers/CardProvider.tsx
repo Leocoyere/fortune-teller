@@ -139,22 +139,33 @@ const cardPalette: Record<string, ColorPalette> = {
   }
 };
 
-export default function CardProvider({ children }: Props) {
+function generateCard() : Card {
   const encodedData = useParams().encodedData!
   const decodedData: { card: { id: keyof typeof cards, reversed: boolean }, question: string } = decodeBase64Url(encodedData);
 
   const cardId = decodedData.card.id;
   const cardData = cards[cardId];
+
   const cardOrientation = decodedData.card.reversed ? "reversed" : "upright";
 
-  const card : Card = {
-    name: cardData.name,
-    answer: cardData[cardOrientation].answer,
-    question: decodedData.question,
-    message: cardData[cardOrientation].message,
-    isReversed: decodedData.card.reversed,
-    palette: cardPalette[cardId]
-  };
+  const biddyTarotBaseUrl = "https://biddytarot.com/tarot-card-meanings/major-arcana/"
+  const cardNameUrlable = cardData.name.replace(/The /, "").replace(/ /g, "-").toLowerCase();
+  const cardUrl = `${biddyTarotBaseUrl}${cardNameUrlable}`;
+
+  return {
+      name: cardData.name,
+      answer: cardData[cardOrientation].answer,
+      question: decodedData.question,
+      message: cardData[cardOrientation].message,
+      isReversed: decodedData.card.reversed,
+      palette: cardPalette[cardId],
+      cardUrl: cardUrl,
+    };
+}
+
+export default function CardProvider({ children }: Props) {
+
+  const card : Card = generateCard();
 
   return (
     <CardContext.Provider value={card}>

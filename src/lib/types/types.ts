@@ -12,4 +12,5 @@ export type Card = {
     message: string;
     isReversed: boolean;
     palette: ColorPalette;
+    cardUrl: string;
 };

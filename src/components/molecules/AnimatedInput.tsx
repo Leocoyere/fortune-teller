@@ -2,9 +2,9 @@ import { useState } from "react";
 import Arrow from "@/components/atoms/Arrow";
 import { generateUrl } from "@/lib/helpers/generateEncodedUrl";
 import { useNavigate } from "react-router";
-import { MockQuestions } from "../atoms/mockQuestions";
+import { MockQuestions } from "@/components/atoms/MockQuestions";
 
-export default function AnimatedInput() {
+export default function AnimatedInput({ className }: { className?: string }) {
 
 	const navigate = useNavigate();
 	const [question, setQuestion] = useState("");
@@ -27,7 +27,7 @@ export default function AnimatedInput() {
 	}
 
 	return (
-    	<form onSubmit={handleSubmit} className="mb-20 mt-10 lg:mt-auto px-5 w-full sm:w-auto relative z-1 flex justify-center items-center gap-4">
+    	<form onSubmit={handleSubmit} className={"mb-10 mt-10 lg:mt-auto px-5 w-full sm:w-auto relative z-1 flex justify-center items-center gap-4" + (className ? ` ${className}` : "")}>
 			<MockQuestions animate={animate} />
 			<input className="relative text-white nohemi w-full sm:w-sm lg:w-lg border-b-2 border-white" type="text" onChange={handleInputChange} onFocus={() => setAnimate(false)} onBlur={(e) => handleSetAnimate(e)} />
 			<button type="submit">
